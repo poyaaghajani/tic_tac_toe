@@ -57,7 +57,7 @@ class _ApplicationState extends State<Application> {
               SizedBox(height: 18),
               getGridView(),
               getTurn(),
-              SizedBox(height: 10),
+              SizedBox(height: 20),
             ],
           ),
         ),
@@ -80,7 +80,7 @@ class _ApplicationState extends State<Application> {
                 width: 100,
                 height: 100,
                 decoration: BoxDecoration(
-                  border: Border.all(color: Colors.grey),
+                  border: Border.all(color: Colors.grey, width: 2),
                 ),
                 child: Center(
                   child: Text(
@@ -246,7 +246,7 @@ class _ApplicationState extends State<Application> {
                   'Player :)',
                   style: TextStyle(
                       fontSize: 25,
-                      color: Colors.cyan[800],
+                      color: Colors.cyan,
                       fontWeight: FontWeight.w500),
                 ),
               ),
@@ -270,7 +270,7 @@ class _ApplicationState extends State<Application> {
                   'Player :(',
                   style: TextStyle(
                       fontSize: 25,
-                      color: Colors.cyan[800],
+                      color: Colors.cyan,
                       fontWeight: FontWeight.w500),
                 ),
               ),
